@@ -1,0 +1,533 @@
+EESchema Schematic File Version 4
+LIBS:fk-core-cache
+EELAYER 26 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L fk-core-rescue:MICRO_SD-conservify M?
+U 1 1 5C1A3FA6
+P 8225 3275
+AR Path="/5C1A3FA6" Ref="M?"  Part="1" 
+AR Path="/5C11B07A/5C1A3FA6" Ref="M?"  Part="1" 
+F 0 "M?" H 8225 3275 45  0001 C CNN
+F 1 "MICRO-SD" H 8225 3275 45  0001 C CNN
+F 2 "conservify:MICRO-SD" H 8255 3425 20  0001 C CNN
+F 3 "" H 8225 3275 60  0001 C CNN
+F 4 " " H 8225 3375 50  0001 C CNN "Critical"
+F 5 "3M" H 8225 3375 50  0001 C CNN "MFN"
+F 6 "2908-05WB-MG" H 8225 3375 50  0001 C CNN "MFP"
+F 7 " " H 8225 3375 50  0001 C CNN "Notes"
+F 8 " " H 8225 3375 50  0001 C CNN "Package"
+F 9 "ANY" H 8225 3375 50  0001 C CNN "Source"
+F 10 " " H 8225 3375 50  0001 C CNN "Subsystem"
+F 11 "3.6" H 8225 3375 50  0001 C CNN "price"
+F 12 "3M5607CT-ND" H -3925 -9525 50  0001 C CNN "spn1"
+F 13 "digikey" H -3925 -9525 50  0001 C CNN "supplier1"
+	1    8225 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L fk-core-rescue:RESISTOR-conservify R?
+U 1 1 5C1A3FB6
+P 3425 3725
+AR Path="/5C1A3FB6" Ref="R?"  Part="1" 
+AR Path="/5C11B07A/5C1A3FB6" Ref="R?"  Part="1" 
+F 0 "R?" H 3425 3825 60  0000 C CNN
+F 1 "100K" H 3425 3625 60  0000 C CNN
+F 2 "conservify:RES-0603" H 3425 3525 60  0001 C CNN
+F 3 "" H 3425 3725 60  0000 C CNN
+F 4 " " H 3425 3925 50  0001 C CNN "Critical"
+F 5 "Yageo" H 3425 3925 50  0001 C CNN "MFN"
+F 6 "RC0603FR-07100KL" H 3425 3925 50  0001 C CNN "MFP"
+F 7 " " H 3425 3925 50  0001 C CNN "Notes"
+F 8 " " H 3425 3925 50  0001 C CNN "Package"
+F 9 "ANY" H 3425 3925 50  0001 C CNN "Source"
+F 10 " " H 3425 3925 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 3425 3925 50  0001 C CNN "price"
+F 12 "603-RC0603FR-07100KL" H 4475 -10025 50  0001 C CNN "spn1"
+F 13 "mouser" H -3025 -8725 50  0001 C CNN "supplier1"
+	1    3425 3725
+	0    1    1    0   
+$EndComp
+$Comp
+L fk-core-rescue:RESISTOR-conservify R?
+U 1 1 5C1A3FC7
+P 2625 3275
+AR Path="/5C1A3FC7" Ref="R?"  Part="1" 
+AR Path="/5C11B07A/5C1A3FC7" Ref="R?"  Part="1" 
+F 0 "R?" H 2625 3375 60  0000 C CNN
+F 1 "100K" H 2625 3175 60  0000 C CNN
+F 2 "conservify:RES-0603" H 2625 3075 60  0001 C CNN
+F 3 "" H 2625 3275 60  0000 C CNN
+F 4 " " H 2625 3475 50  0001 C CNN "Critical"
+F 5 "Yageo" H 2625 3475 50  0001 C CNN "MFN"
+F 6 "RC0603FR-07100KL" H 2625 3475 50  0001 C CNN "MFP"
+F 7 " " H 2625 3475 50  0001 C CNN "Notes"
+F 8 " " H 2625 3475 50  0001 C CNN "Package"
+F 9 "ANY" H 2625 3475 50  0001 C CNN "Source"
+F 10 " " H 2625 3475 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 2625 3475 50  0001 C CNN "price"
+F 12 "603-RC0603FR-07100KL" H 4475 -10025 50  0001 C CNN "spn1"
+F 13 "mouser" H -3825 -9175 50  0001 C CNN "supplier1"
+	1    2625 3275
+	0    1    1    0   
+$EndComp
+$Comp
+L fk-core-rescue:ATWINC1500_MR210PA-conservify U?
+U 1 1 5C1A3FDA
+P 5325 3475
+AR Path="/5C1A3FDA" Ref="U?"  Part="1" 
+AR Path="/5C11B07A/5C1A3FDA" Ref="U?"  Part="1" 
+F 0 "U?" H 4725 5075 50  0000 L CNN
+F 1 "ATWINC1500-MR210PA" H 4925 1625 50  0000 L CNN
+F 2 "conservify:ATMEL_ATWINC1500-MR210PA" H 5325 3475 50  0001 L CNN
+F 3 "" H 5325 3475 60  0001 C CNN
+F 4 " " H 4725 5175 50  0001 C CNN "Critical"
+F 5 "Microchip Technology" H 4725 5175 50  0001 C CNN "MFN"
+F 6 "ATWINC1500-MR210UB" H 4725 5175 50  0001 C CNN "MFP"
+F 7 " " H 4725 5175 50  0001 C CNN "Notes"
+F 8 " " H 4725 5175 50  0001 C CNN "Package"
+F 9 "ANY" H 4725 5175 50  0001 C CNN "Source"
+F 10 " " H 4725 5175 50  0001 C CNN "Subsystem"
+F 11 "17.69" H 4725 5175 50  0001 C CNN "price"
+F 12 "556-ATWINC1500MR210U" H 5325 3475 60  0001 C CNN "spn1"
+F 13 "ATWINC1500-MR210UB-ND" H 5325 3475 60  0001 C CNN "spn2"
+F 14 "mouser" H 5325 3475 60  0001 C CNN "supplier1"
+F 15 "digikey" H 5325 3475 60  0001 C CNN "supplier2"
+	1    5325 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L fk-core-rescue:RESISTOR-conservify R?
+U 1 1 5C1A3FEB
+P 4275 4125
+AR Path="/5C1A3FEB" Ref="R?"  Part="1" 
+AR Path="/5C11B07A/5C1A3FEB" Ref="R?"  Part="1" 
+F 0 "R?" H 4275 4225 60  0000 C CNN
+F 1 "1K" H 4275 4025 60  0000 C CNN
+F 2 "conservify:RES-0603" H 4275 3925 60  0001 C CNN
+F 3 "" H 4275 4125 60  0000 C CNN
+F 4 " " H 4275 4325 50  0001 C CNN "Critical"
+F 5 " " H 4275 4325 50  0001 C CNN "MFN"
+F 6 " " H 4275 4325 50  0001 C CNN "MFP"
+F 7 " " H 4275 4325 50  0001 C CNN "Notes"
+F 8 " " H 4275 4325 50  0001 C CNN "Package"
+F 9 "ANY" H 4275 4325 50  0001 C CNN "Source"
+F 10 " " H 4275 4325 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 4275 4325 50  0001 C CNN "price"
+F 12 "603-RC0603FR-07330RL" H 4475 -10025 50  0001 C CNN "spn1"
+F 13 "mouser" H -2175 -8325 50  0001 C CNN "supplier1"
+	1    4275 4125
+	0    1    1    0   
+$EndComp
+$Comp
+L fk-core-rescue:LED_SINGLE-conservify D?
+U 1 1 5C1A3FFC
+P 4275 4675
+AR Path="/5C1A3FFC" Ref="D?"  Part="1" 
+AR Path="/5C11B07A/5C1A3FFC" Ref="D?"  Part="1" 
+F 0 "D?" V 4325 4475 50  0000 C CNN
+F 1 "Yellow" V 4225 4475 50  0000 C CNN
+F 2 "conservify:LED-0603" H 4275 4425 60  0001 C CNN
+F 3 "" H 4275 4675 60  0000 C CNN
+F 4 " " H 4325 4575 50  0001 C CNN "Critical"
+F 5 "Lite-On" H 4325 4575 50  0001 C CNN "MFN"
+F 6 "LTST-C190KSKT" H 4325 4575 50  0001 C CNN "MFP"
+F 7 " " H 4325 4575 50  0001 C CNN "Notes"
+F 8 " " H 4325 4575 50  0001 C CNN "Package"
+F 9 "ANY" H 4325 4575 50  0001 C CNN "Source"
+F 10 " " H 4325 4575 50  0001 C CNN "Subsystem"
+F 11 "0.3" H 4325 4575 50  0001 C CNN "price"
+F 12 "859-LTST-C190KSKT" H 4475 -10025 50  0001 C CNN "spn1"
+F 13 "mouser" H 2575 -1525 50  0001 C CNN "supplier1"
+	1    4275 4675
+	0    1    1    0   
+$EndComp
+$Comp
+L fk-core-rescue:RESISTOR-conservify R?
+U 1 1 5C1A400D
+P 3975 4125
+AR Path="/5C1A400D" Ref="R?"  Part="1" 
+AR Path="/5C11B07A/5C1A400D" Ref="R?"  Part="1" 
+F 0 "R?" H 3975 4225 60  0000 C CNN
+F 1 "1K" H 3975 4025 60  0000 C CNN
+F 2 "conservify:RES-0603" H 3975 3925 60  0001 C CNN
+F 3 "" H 3975 4125 60  0000 C CNN
+F 4 " " H 3975 4325 50  0001 C CNN "Critical"
+F 5 " " H 3975 4325 50  0001 C CNN "MFN"
+F 6 " " H 3975 4325 50  0001 C CNN "MFP"
+F 7 " " H 3975 4325 50  0001 C CNN "Notes"
+F 8 " " H 3975 4325 50  0001 C CNN "Package"
+F 9 "ANY" H 3975 4325 50  0001 C CNN "Source"
+F 10 " " H 3975 4325 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 3975 4325 50  0001 C CNN "price"
+F 12 "603-RC0603FR-07330RL" H 4475 -10025 50  0001 C CNN "spn1"
+F 13 "mouser" H -2475 -8325 50  0001 C CNN "supplier1"
+	1    3975 4125
+	0    1    1    0   
+$EndComp
+$Comp
+L fk-core-rescue:LED_SINGLE-conservify D?
+U 1 1 5C1A401E
+P 3975 4675
+AR Path="/5C1A401E" Ref="D?"  Part="1" 
+AR Path="/5C11B07A/5C1A401E" Ref="D?"  Part="1" 
+F 0 "D?" V 4025 4475 50  0000 C CNN
+F 1 "Green" V 3925 4475 50  0000 C CNN
+F 2 "conservify:LED-0603" H 3975 4425 60  0001 C CNN
+F 3 "" H 3975 4675 60  0000 C CNN
+F 4 " " H 4025 4575 50  0001 C CNN "Critical"
+F 5 "Lite-On" H 4025 4575 50  0001 C CNN "MFN"
+F 6 "LTST-C190KGKT" H 4025 4575 50  0001 C CNN "MFP"
+F 7 " " H 4025 4575 50  0001 C CNN "Notes"
+F 8 " " H 4025 4575 50  0001 C CNN "Package"
+F 9 "ANY" H 4025 4575 50  0001 C CNN "Source"
+F 10 " " H 4025 4575 50  0001 C CNN "Subsystem"
+F 11 "0.28" H 4025 4575 50  0001 C CNN "price"
+F 12 "859-LTST-C190KGKT" H 4475 -10025 50  0001 C CNN "spn1"
+F 13 "mouser" H 2275 -1525 50  0001 C CNN "supplier1"
+	1    3975 4675
+	0    1    1    0   
+$EndComp
+$Comp
+L fk-core-rescue:GND-conservify #PWR?
+U 1 1 5C1A4025
+P 6275 5525
+AR Path="/5C1A4025" Ref="#PWR?"  Part="1" 
+AR Path="/5C11B07A/5C1A4025" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6275 5275 50  0001 C CNN
+F 1 "GND" H 6275 5375 50  0001 C CNN
+F 2 "" H 6275 5525 60  0000 C CNN
+F 3 "" H 6275 5525 60  0000 C CNN
+	1    6275 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L fk-core-rescue:GND-conservify #PWR?
+U 1 1 5C1A402B
+P 7275 4475
+AR Path="/5C1A402B" Ref="#PWR?"  Part="1" 
+AR Path="/5C11B07A/5C1A402B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7275 4225 50  0001 C CNN
+F 1 "GND" H 7275 4325 50  0001 C CNN
+F 2 "" H 7275 4475 60  0000 C CNN
+F 3 "" H 7275 4475 60  0000 C CNN
+	1    7275 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L fk-core-rescue:GND-conservify #PWR?
+U 1 1 5C1A4031
+P 3425 5525
+AR Path="/5C1A4031" Ref="#PWR?"  Part="1" 
+AR Path="/5C11B07A/5C1A4031" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3425 5275 50  0001 C CNN
+F 1 "GND" H 3425 5375 50  0001 C CNN
+F 2 "" H 3425 5525 60  0000 C CNN
+F 3 "" H 3425 5525 60  0000 C CNN
+	1    3425 5525
+	1    0    0    -1  
+$EndComp
+Text Notes 7725 1275 0    180  ~ 36
+SD
+Text Notes 4425 1325 0    180  ~ 36
+WIFI
+Wire Wire Line
+	7525 3975 7275 3975
+Wire Wire Line
+	7275 3775 7275 3975
+Wire Wire Line
+	7525 4075 7275 4075
+Wire Wire Line
+	7525 3775 7275 3775
+Wire Wire Line
+	7125 3675 7525 3675
+Wire Wire Line
+	3425 3975 3425 4075
+Wire Wire Line
+	2525 2475 4525 2475
+Wire Wire Line
+	2625 3525 2625 4075
+Wire Wire Line
+	6125 4975 6275 4975
+Wire Wire Line
+	6275 4975 6275 5075
+Wire Wire Line
+	6275 5175 6125 5175
+Wire Wire Line
+	6125 5075 6275 5075
+Wire Wire Line
+	6225 1675 6225 2075
+Wire Wire Line
+	6225 2175 6125 2175
+Wire Wire Line
+	6125 2075 6225 2075
+Wire Wire Line
+	4525 2675 3425 2675
+Wire Wire Line
+	4275 5025 4275 4875
+Wire Wire Line
+	4275 4475 4275 4375
+Wire Wire Line
+	4275 3875 4525 3875
+Wire Wire Line
+	3975 4875 3975 5025
+Wire Wire Line
+	3975 4475 3975 4375
+Wire Wire Line
+	4525 3775 3975 3775
+Wire Wire Line
+	3975 3775 3975 3875
+Wire Wire Line
+	4325 2875 4525 2875
+Wire Wire Line
+	4325 3075 4525 3075
+Wire Wire Line
+	4325 3175 4525 3175
+Wire Notes Line
+	2425 975  6825 975 
+Wire Notes Line
+	6825 975  6825 5675
+Wire Notes Line
+	6825 5675 2425 5675
+Wire Notes Line
+	2425 5675 2425 975 
+Wire Notes Line
+	6925 975  9025 975 
+Wire Notes Line
+	9025 975  9025 5675
+Wire Notes Line
+	9025 5675 6925 5675
+Wire Notes Line
+	6925 5675 6925 975 
+Wire Wire Line
+	2625 4075 3425 4075
+Wire Wire Line
+	4275 5025 3975 5025
+Wire Wire Line
+	7275 4075 7275 4475
+Wire Wire Line
+	7275 3975 7275 4075
+Wire Wire Line
+	6275 5075 6275 5175
+Wire Wire Line
+	6225 2075 6225 2175
+Wire Wire Line
+	6275 5175 6275 5525
+Wire Wire Line
+	3425 4075 3425 5525
+Wire Wire Line
+	3975 5025 3975 5575
+Wire Wire Line
+	3425 2675 3425 3475
+Wire Wire Line
+	7125 3900 7125 3675
+Wire Wire Line
+	6125 2775 6225 2775
+Wire Wire Line
+	6125 3175 6225 3175
+Connection ~ 7275 4075
+Connection ~ 7275 3975
+Connection ~ 6275 5075
+Connection ~ 6225 2075
+Connection ~ 6275 5175
+Connection ~ 3425 4075
+Connection ~ 3975 5025
+NoConn ~ 7525 2575
+NoConn ~ 7525 2675
+NoConn ~ 7525 3375
+NoConn ~ 7525 3475
+NoConn ~ 6125 3375
+NoConn ~ 4525 3375
+NoConn ~ 4525 4275
+NoConn ~ 4525 4375
+NoConn ~ 6125 4675
+NoConn ~ 4525 3975
+NoConn ~ 4525 3675
+Text HLabel 4600 1675 0    60   Input ~ 0
+PERIPH_3V3
+Wire Wire Line
+	4600 1675 6225 1675
+Text HLabel 7125 3900 3    60   Input ~ 0
+PERIPH_3V3
+$Comp
+L fk-core-rescue:S25FL1xxK0XM-conservify U?
+U 1 1 5C387D11
+P 11600 4375
+AR Path="/5C387D11" Ref="U?"  Part="1" 
+AR Path="/5C11B07A/5C387D11" Ref="U?"  Part="1" 
+F 0 "U?" H 11600 4675 60  0000 C CNN
+F 1 "S25FL116K0XMFI041" H 11600 4075 60  0000 C CNN
+F 2 "conservify:SOIC-8-N-WIDE" H 11600 3975 60  0001 C CNN
+F 3 "" H 11400 4425 60  0000 C CNN
+F 4 " " H 11600 4775 50  0001 C CNN "Critical"
+F 5 "Cypress Semiconductor" H 11600 4775 50  0001 C CNN "MFN"
+F 6 "S25FL116K0XMFI041" H 11600 4775 50  0001 C CNN "MFP"
+F 7 " " H 11600 4775 50  0001 C CNN "Notes"
+F 8 " " H 11600 4775 50  0001 C CNN "Package"
+F 9 "ANY" H 11600 4775 50  0001 C CNN "Source"
+F 10 " " H 11600 4775 50  0001 C CNN "Subsystem"
+F 11 "0.49" H 11600 4775 50  0001 C CNN "price"
+F 12 "797-25FL116KOXMFI041" H -2200 -2525 50  0001 C CNN "spn1"
+F 13 "mouser" H -2200 -2525 50  0001 C CNN "supplier1"
+	1    11600 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L fk-core-rescue:CAPACITOR_CERAMIC-conservify C?
+U 1 1 5C387D22
+P 12500 4225
+AR Path="/5C387D22" Ref="C?"  Part="1" 
+AR Path="/5C11B07A/5C387D22" Ref="C?"  Part="1" 
+F 0 "C?" V 12350 4175 50  0000 L CNN
+F 1 "100nF" V 12650 4125 50  0000 L CNN
+F 2 "conservify:CAP-0603" H 12500 4025 30  0001 C CNN
+F 3 "" H 12500 4225 60  0000 C CNN
+F 4 " " H 12350 4275 50  0001 C CNN "Critical"
+F 5 "Murata Electronics" H 12350 4275 50  0001 C CNN "MFN"
+F 6 "GRM188R71H104KA93D" H 12350 4275 50  0001 C CNN "MFP"
+F 7 " " H 12350 4275 50  0001 C CNN "Notes"
+F 8 " " H 12350 4275 50  0001 C CNN "Package"
+F 9 "ANY" H 12350 4275 50  0001 C CNN "Source"
+F 10 " " H 12350 4275 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 12350 4275 50  0001 C CNN "price"
+F 12 "81-GRM39X104K50D" H -2200 -2525 50  0001 C CNN "spn1"
+F 13 "mouser" H -2200 -2525 50  0001 C CNN "supplier1"
+	1    12500 4225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fk-core-rescue:GND-conservify #PWR?
+U 1 1 5C387D29
+P 10950 4825
+AR Path="/5C387D29" Ref="#PWR?"  Part="1" 
+AR Path="/5C11B07A/5C387D29" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10950 4575 50  0001 C CNN
+F 1 "GND" H 10950 4675 50  0001 C CNN
+F 2 "" H 10950 4825 60  0000 C CNN
+F 3 "" H 10950 4825 60  0000 C CNN
+	1    10950 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L fk-core-rescue:GND-conservify #PWR?
+U 1 1 5C387D2F
+P 12750 4825
+AR Path="/5C387D2F" Ref="#PWR?"  Part="1" 
+AR Path="/5C11B07A/5C387D2F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12750 4575 50  0001 C CNN
+F 1 "GND" H 12750 4675 50  0001 C CNN
+F 2 "" H 12750 4825 60  0000 C CNN
+F 3 "" H 12750 4825 60  0000 C CNN
+	1    12750 4825
+	-1   0    0    -1  
+$EndComp
+Text Notes 10800 3725 0    180  ~ 36
+SERIAL FLASH
+Text Notes 11200 4825 0    50   ~ 0
+16Mbit = 2Mbytes
+Wire Wire Line
+	12250 4325 12150 4325
+Wire Wire Line
+	12150 4225 12250 4225
+Wire Wire Line
+	12150 4425 12350 4425
+Wire Wire Line
+	12350 4525 12150 4525
+Wire Wire Line
+	10800 4225 11050 4225
+Wire Wire Line
+	10775 4325 11050 4325
+Wire Wire Line
+	10400 4425 11050 4425
+Wire Wire Line
+	11050 4525 10950 4525
+Wire Wire Line
+	10950 4525 10950 4825
+Wire Wire Line
+	12650 4225 12750 4225
+Wire Wire Line
+	12750 4225 12750 4825
+Wire Notes Line
+	10250 5025 13150 5025
+Wire Notes Line
+	13150 5025 13150 3325
+Wire Notes Line
+	13150 3325 10250 3325
+Wire Wire Line
+	12250 4225 12250 4325
+Wire Wire Line
+	12250 4225 12350 4225
+Connection ~ 12250 4225
+Text HLabel 10175 3900 0    60   Input ~ 0
+PERIPH_3V3
+Wire Wire Line
+	10175 3900 10400 3900
+Wire Wire Line
+	12250 3900 12250 4225
+Wire Wire Line
+	10400 4425 10400 3900
+Connection ~ 10400 3900
+Wire Wire Line
+	10400 3900 12250 3900
+Text HLabel 2525 2475 0    60   Input ~ 0
+A1_WIFI_RST
+Text HLabel 3375 2575 0    60   Input ~ 0
+D8_WIFI_WAKE
+Text HLabel 3375 2675 0    60   Input ~ 0
+D2_WIFI_EN
+Text HLabel 4325 2875 0    60   Input ~ 0
+SCK
+Text HLabel 4325 3075 0    60   Input ~ 0
+D7_WIFI_CS
+Text HLabel 4325 3175 0    60   Input ~ 0
+MOSI
+Text HLabel 6225 2775 2    60   Input ~ 0
+A2_WIFI_IRQ
+Text HLabel 7500 2975 0    60   Input ~ 0
+MISO
+Text HLabel 4325 2975 0    60   Input ~ 0
+PERIPH_3V3
+Text HLabel 3975 5575 2    60   Input ~ 0
+PERIPH_3V3
+Wire Wire Line
+	3375 2575 4525 2575
+Wire Wire Line
+	3375 2675 3425 2675
+Connection ~ 3425 2675
+Wire Wire Line
+	4325 2975 4525 2975
+Text HLabel 7500 3075 0    60   Input ~ 0
+MOSI
+Text HLabel 7500 3175 0    60   Input ~ 0
+SCK
+Wire Wire Line
+	7500 2975 7525 2975
+Wire Wire Line
+	7500 3075 7525 3075
+Wire Wire Line
+	7500 3175 7525 3175
+Text HLabel 7500 3275 0    60   Input ~ 0
+D12_SD_CS
+Wire Wire Line
+	7500 3275 7525 3275
+Text HLabel 10775 4325 0    60   Input ~ 0
+MISO
+Text HLabel 12350 4525 2    60   Input ~ 0
+MOSI
+Text HLabel 12350 4425 2    60   Input ~ 0
+SCK
+Text HLabel 10800 4225 0    60   Input ~ 0
+D26_FLASH_CS
+$EndSCHEMATC
